@@ -22,6 +22,8 @@ https://github.com/Kassiteros/Kassiteros/images/Kassiterios_001.jpg
   <source srcset="https://github.com/Kassiteros/Kassiteros/images/Kassiterios_001.jpg"
 </picture>
 
+<img src="https://example.com/path/to/image.png" alt="Kass">
+
 THIS is Kassiteros !
 
 I rescued a kitten from Korfu last summer. My girlfriend named him Tin Ribs. When we needed a name for his passport I decided on Kassiteros which
