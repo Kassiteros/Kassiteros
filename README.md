@@ -16,6 +16,9 @@ Here are some ideas to get you started:
 -->
 
 <!-- Let's use an image of this repository's namesake ;-) -->
-/images/Kassiterios_001.jpg
+https://github.com/Kassiteros/Kassiteros/images/Kassiterios_001.jpg
 
+THIS is Kassiteros !
 
+I rescued a kitten from Korfu last summer. My girlfriend named him Tin Ribs. When we needed a name for his passport I decided on Kassiteros which
+is Greek for Tin !
