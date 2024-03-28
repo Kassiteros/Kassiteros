@@ -22,7 +22,7 @@ https://github.com/Kassiteros/Kassiteros/images/Kassiterios_001.jpg
   <source srcset="https://github.com/Kassiteros/Kassiteros/images/Kassiterios_001.jpg"
 </picture>
 
-<img src="https://example.com/path/to/image.png" alt="Kass">
+<img src="https://github.com/Kassiteros/Kassiteros/images/Kassiteros_001.jpg" alt="Kass">
 
 THIS is Kassiteros !
 
