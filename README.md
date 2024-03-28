@@ -18,11 +18,7 @@ Here are some ideas to get you started:
 <!-- Let's use an image of this repository's namesake ;-) -->
 https://github.com/Kassiteros/Kassiteros/images/Kassiterios_001.jpg
 
-<picture>
-  <source srcset="https://github.com/Kassiteros/Kassiteros/images/Kassiterios_001.jpg"
-</picture>
-
-<img src="https://github.com/Kassiteros/Kassiteros/images/Kassiteros_001.jpg" alt="Kass">
+<img src="/images/Kassiteros_001.jpg" alt="Kass">
 
 THIS is Kassiteros !
 
