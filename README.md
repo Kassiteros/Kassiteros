@@ -26,6 +26,11 @@ The background color is `#ffffff` for light mode and `#000000` for dark mode and
 div { background-color: powderblue; }
 </style>
 
+h3 {
+  display: inline-block;
+  border: 1px solid black;
+}
+
 <h3>some HTML</h3>
 <br>
 <div>MY DIV</div>
