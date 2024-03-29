@@ -41,6 +41,10 @@ h3 {
 
 <h3 style="color:green;font-weight:700;font-size:20px">some HTML</h3>
 
+<span style="color:green;font-weight:700;font-size:20px">
+    markdown color font styles
+</span>
+
 <!-- START COMMENT OUT
 
 <br>
