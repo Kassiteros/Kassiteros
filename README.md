@@ -18,9 +18,11 @@ Here are some ideas to get you started:
 <!-- Let's use an image of this repository's namesake ;-) -->
 https://github.com/Kassiteros/Kassiteros/images/Kassiterios_001.jpg
 
-<!-- START COMMENT OUT
 
 <span style="font-family:Papyrus; font-size:8em;">Love !</span>
+
+<!-- START COMMENT OUT
+
 
 <span style="font-size:10.5px;">Span style goes here</span>
 
