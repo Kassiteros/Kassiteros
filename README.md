@@ -15,11 +15,6 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-<!-- Let's use an image of this repository's namesake ;-) -->
-https://github.com/Kassiteros/Kassiteros/images/Kassiterios_001.jpg
-
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
-
 ![My image.](https://www.dropbox.com/scl/fi/fx1pisfyiqnqh0tffpisz/Kassiteros_001.jpg?rlkey=zc1ljg8176nyjlqwqonnmjbzt&raw=1)
 
 <span style="font-family:Papyrus; font-size:8em;">Love !</span>
