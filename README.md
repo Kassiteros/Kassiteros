@@ -20,7 +20,7 @@ https://github.com/Kassiteros/Kassiteros/images/Kassiterios_001.jpg
 
 <span style="font-size:10.5px;">Span style goes here</span>
 
-The background color is `#ffffff` for light mode and `#000000` for dark mode.
+The background color is `#ffffff` for light mode and `#000000` for dark mode and `#fgfhfg` for anything else.
 
 <style>
 div { background-color: powderblue; }
