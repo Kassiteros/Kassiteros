@@ -31,13 +31,13 @@ The background color is `#ffffff` for light mode and `#000000` for dark mode and
 div { background-color: powderblue; }
 </style>
 
-<!-- START COMMENT OUT
-
 h3 {
   display: inline-block;
   border: 1px solid black;
   color: powderblue;
 }
+
+<!-- START COMMENT OUT
 
 <h3 style="color: powderblue;>some HTML</h3>
 <br>
