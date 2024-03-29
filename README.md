@@ -27,11 +27,11 @@ The background color is `#ffffff` for light mode and `#000000` for dark mode and
 
 <p style="font-size: 21px;">Your content here</p>
 
-<!-- START COMMENT OUT
-
 <style>
 div { background-color: powderblue; }
 </style>
+
+<!-- START COMMENT OUT
 
 h3 {
   display: inline-block;
