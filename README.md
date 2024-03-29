@@ -15,12 +15,21 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
+<!--
 ![My image.](https://www.dropbox.com/scl/fi/fx1pisfyiqnqh0tffpisz/Kassiteros_001.jpg?rlkey=zc1ljg8176nyjlqwqonnmjbzt&raw=1)
 
 ![My image.](https://www.dropbox.com/scl/fi/fx1pisfyiqnqh0tffpisz/Kassiteros_002.jpg?rlkey=zc1ljg8176nyjlqwqonnmjbzt&raw=1)
 
-![My image.](https://www.dropbox.com/scl/fi/nvdectikpt6k06mg50vyl/Kassiteros_002.jpg?rlkey=epg3vc1r3ao6bxnk4xgqjjkro&raw=1)
+Dropbox images:
 
+https://www.dropbox.com/s/tg0cfa565aue4ak/zoo.jpg?dl=0
+Just delete dl=0 at the end of the link and replace it with raw=1 
+Now your link that you gonna use should look like this:
+https://www.dropbox.com/s/tg0cfa565aue4ak/zoo.jpg?raw=1
+
+-->
+
+![My image.](https://www.dropbox.com/scl/fi/xmlvd0rll3gi0umgcra6g/Kassiteros_003.jpg?rlkey=lilt3k1xydizrfkskj1jycwlx&raw=1)
 
 <span style="font-family:Papyrus; font-size:8em;">Love !</span>
 
