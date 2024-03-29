@@ -18,6 +18,8 @@ Here are some ideas to get you started:
 <!-- Let's use an image of this repository's namesake ;-) -->
 https://github.com/Kassiteros/Kassiteros/images/Kassiterios_001.jpg
 
+<span style="font-size:0.5em;">Text goes here</span>
+
 <style>
 div { background-color: powderblue; }
 </style>
