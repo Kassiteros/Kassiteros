@@ -23,11 +23,11 @@ https://github.com/Kassiteros/Kassiteros/images/Kassiterios_001.jpg
 
 <span style="font-size:10.5px;">Span style goes here</span>
 
-<!-- START COMMENT OUT
-
 The background color is `#ffffff` for light mode and `#000000` for dark mode and `#fgfhfg` for anything else.
 
 <p style="font-size: 21px;">Your content here</p>
+
+<!-- START COMMENT OUT
 
 <style>
 div { background-color: powderblue; }
