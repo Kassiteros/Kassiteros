@@ -18,7 +18,7 @@ Here are some ideas to get you started:
 <!-- Let's use an image of this repository's namesake ;-) -->
 https://github.com/Kassiteros/Kassiteros/images/Kassiterios_001.jpg
 
-<span style="font-size:3.5em;">Text goes here</span>
+<span style="font-size:10.5px;">Span style goes here</span>
 
 <style>
 div { background-color: powderblue; }
