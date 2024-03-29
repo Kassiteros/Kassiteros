@@ -33,10 +33,10 @@ div { background-color: powderblue; }
 h3 {
   display: inline-block;
   border: 1px solid black;
-  color: blue;
+  color: powderblue;
 }
 
-<h3>some HTML</h3>
+<h3 style="color: powderblue;>some HTML</h3>
 <br>
 <div>MY DIV</div>
 
