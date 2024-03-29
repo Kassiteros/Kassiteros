@@ -19,6 +19,8 @@ Here are some ideas to get you started:
 
 ![My image.](https://www.dropbox.com/scl/fi/fx1pisfyiqnqh0tffpisz/Kassiteros_002.jpg?rlkey=zc1ljg8176nyjlqwqonnmjbzt&raw=1)
 
+![My image.](https://www.dropbox.com/scl/fi/nvdectikpt6k06mg50vyl/Kassiteros_002.jpg?rlkey=epg3vc1r3ao6bxnk4xgqjjkro&raw=1)
+
 
 <span style="font-family:Papyrus; font-size:8em;">Love !</span>
 
