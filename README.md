@@ -20,7 +20,7 @@ https://github.com/Kassiteros/Kassiteros/images/Kassiterios_001.jpg
 
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
 
-![My image.](https://myoctocat.com/assets/images/base-octocat.svg)
+![My image.](https://github.com/Kassiteros/Kassiteros/images/Kassiterios_001.jpg)
 
 <span style="font-family:Papyrus; font-size:8em;">Love !</span>
 
