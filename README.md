@@ -39,7 +39,7 @@ h3 {
 
 
 
-<h3 style="color: powderblue";>some HTML</h3>
+<h3 style="color:green;font-weight:700;font-size:20px">some HTML</h3>
 
 <!-- START COMMENT OUT
 
