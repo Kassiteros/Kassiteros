@@ -73,7 +73,7 @@ yellow { color: yellow }
 
 <div>MY DIV</div>
 
-END COMMENT OUT -->
+END COMMENT OUT --> 
 
 
 <h5 style:font-size:21px>I rescued a kitten from Korfu last summer. He befriended us and we fed him and saw him improve with just a few days care. Like other feral cats he was bin diving to keep alive. My girlfriend named him Tin Ribs. When we needed a name for his passport, I decided on **_Kassiteros_** the Greek for Tin ! It took a lot of effort and planning to get Kass back from Corfu. I made sure I had pictures to identify the little critter and talked to the local cat friendly shop keeper, a cattery and ensured I had a local "support network". We were only there for a few days so not enough time to get him passported and chipped. It was difficult, I connected with a couple bringing their cat to the UK and they eventually brought Kass back with them. **I did it !!!** Kass has now grown a thick healthy fur, that covers all my clothes. He doesn't chase his food bowl around the room, he knows there will be more. He's a very loving cat and sleeps on my arm when I am working on my laptop and on my head at night😆</h5>
