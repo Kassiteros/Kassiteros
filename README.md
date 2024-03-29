@@ -25,7 +25,7 @@ https://github.com/Kassiteros/Kassiteros/images/Kassiterios_001.jpg
 
 The background color is `#ffffff` for light mode and `#000000` for dark mode and `#fgfhfg` for anything else.
 
-<p style="font-size: 21px;">Your content here</p>
+<p style="font-size: 21px;>Your content here</p>
 
 <style>
 div { background-color: powderblue; }
