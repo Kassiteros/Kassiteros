@@ -37,10 +37,14 @@ h3 {
   color: powderblue;
 }
 
-<!-- START COMMENT OUT
+
 
 <h3 style="color: powderblue;>some HTML</h3>
+
+<!-- START COMMENT OUT
+
 <br>
+
 <div>MY DIV</div>
 
 END COMMENT OUT -->
