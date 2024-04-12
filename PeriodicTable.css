@@ -1,0 +1,97 @@
+body {
+    /* 
+       This is Practicla Task 1 for T04 Responsive Design. This is the CSS associated
+       with the file PeriodicTable.html in the same folder. 
+    
+       Use a CSS media query to test for a screen display of course AND crucially 
+       whether the display width is less than or equal to 700 pixels. If both of
+       these tests are TRUE then we have decided our viewport is too small to
+       usefully display our grid (display: grid) of the Periodic Table so we will 
+       simply diaplay a single "stock" image of the Periodic Table.
+
+       Of course, we haven't been asked to test for screen height size so we will
+       be able to reduce our screen height and our grid will persist until it is
+       illegible.
+    */
+
+    /* 
+       PLEASE NOTE: we test again whether the display is less than or equal to 700
+       pixels using a media query in the class selector .grid-container. I could 
+       not find a way to do this test once from the grid container and then based
+       on the result make changes to the body element.
+    */
+    @media screen and (max-width: 700px) {            
+        background-image: url('images/PeriodicTable.jpg');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: contain;
+        width: 100vw;
+        height: 100vh;
+    }
+}
+
+
+/* 
+   Let's define the grid container. We'll use the same test we did in the body 
+   element above. If the viewport is less than or eqaul to 700 pixels, we display
+   nothing because the body element will have tested with the same result and will
+   be displaying our stock image of the periodic table. Otherwise we will display
+   our grid of objects, 19 columns which we will repeat over 10 rows to create the
+   basis of our periodic table. We will create blanks in the grid structure where
+   there are no periodic table elements to display simply by making those grid 
+   items present a white background.
+*/
+.grid-container {
+    @media screen and (max-width: 700px) {
+        display: none;
+    }
+    @media screen and not (max-width: 700px) {
+        display: grid;
+        max-width: 100vp;
+        max-height: 100vp;
+        grid-gap: 0vp;
+        grid-template-columns: repeat(19, 1fr);
+        background-color: plum;
+    }
+    /* This break will change the styling by changing the colour of each grid element
+    to powderblue if the viewport goes under 800px... but while it is more than 700px
+    which we test for before displaying the Periodic Table image file. 
+    */
+    @media screen and (max-width: 800px) {
+        background-color: powderblue;
+    }
+}
+
+
+/* Define our standard grid item ensuring it has a solid, visible, border */
+.grid-item {
+    text-align: center;
+    border: 1px solid black;
+    padding: 2vh;
+    font-size: 3vh;
+}
+
+
+.grid-item-hidden {
+    /* Set background colour to white which will effectively give a "blank" square */
+    background-color: rgb(250, 250, 250);
+    text-align: center;
+    border: none;
+    padding: 1em;
+    font-size: 1vh;
+}
+
+
+/* Create an element id selector because we know we can, there is only 1x h1 
+   element. We will call the same CSS media query as above and if the screen 
+   size is less than our optimal size we will NOT display the h1 element since
+   it would overlay the image file we will replace our grid with when the
+   viewport becomes too small. Would be nicer to call our media quey once
+   maybe and store the result so that all subsequent class, element and id
+   selectors can use it without having to repeat the media test themselves !?? 
+*/
+h1 {
+    @media screen and (max-width: 700px) {
+        display: none;
+    }
+}

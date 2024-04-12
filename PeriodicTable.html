@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- This is Practicla Task 1 for T04 Responsive Design. This HTML and associated 
+         associated scripting uses a grid to diaplay the required Periodic Table.  
+    -->
+    <!-- Tested in Chrome and Edge -->
+
+    <!-- PLEASE NOTE: there is another "version" of this task entitled grid.html which uses internal
+         styling. I had great problems with the HTML validator which I think relate to the @media,
+         media test ! For this reason I have craeted this version thatbuses an external style sheet
+         so that I can validate the HTML separately. The HTML validates successfully but I still have 
+         CSS parse errors which I cannot resolve but which seem to be centred around the @media
+         dclaration. 
+    -->
+    <title>CSS Grid Example</title>
+    <meta charset="UTF-8">
+
+    <!-- Let's define an external style sheet -->
+    <link rel="stylesheet" href="PeriodicTable.css">
+  </head>
+  <body>
+    <h1>Periodic Table</h1>
+    <div class="grid-container">
+        <!-- The Periodic table, including blank spaces, is a rectangle of 19 colums by
+             10 rows. We need to replicate this in our grid. The CSS class ".grid-item-hidden"
+             will be applied appropriately to give the displayed "blank" spaces in the standard
+             Periodic Table -->
+
+        <!-- This is the 1st row of 19 cells -->
+        <div class="grid-item">H</div>
+        <!-- Second column first item is blank -->
+        <div class="grid-item-hidden"></div>
+        <!-- Third column first item is blank -->
+        <div class="grid-item-hidden"></div>
+        <!-- The 4th column of every row needs to be blank -->
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item">He</div>
+  
+        <!-- This is the 2nd row of 19 cells -->
+        <div class="grid-item">Li</div>    
+        <div class="grid-item">Be</div>
+        <div class="grid-item-hidden"></div>
+        <!-- The 4th column of every row needs to be blank -->
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item">B</div>
+        <div class="grid-item">C</div>
+        <div class="grid-item">N</div>
+        <div class="grid-item">O</div>
+        <div class="grid-item">F</div>
+        <div class="grid-item">Ne</div>
+
+        <!-- This is the 3rd row of 19 cells -->
+        <div class="grid-item">Na</div>
+        <div class="grid-item">Mg</div>
+        <div class="grid-item-hidden"></div>
+        <!-- The 4th column of every row needs to be blank -->
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item">Al</div>
+        <div class="grid-item">Si</div>
+        <div class="grid-item">P</div>
+        <div class="grid-item">S</div>
+        <div class="grid-item">Cl</div>
+        <div class="grid-item">Ar</div> 
+        
+        <!-- This is the 4th row of 19 cells -->
+        <div class="grid-item">K</div>
+        <div class="grid-item">Ca</div>
+        <div class="grid-item">Sc</div>
+        <!-- The 4th column of every row needs to be blank -->
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item">Ti</div>
+        <div class="grid-item">V</div>
+        <div class="grid-item">Cr</div>
+        <div class="grid-item">Mn</div>
+        <div class="grid-item">Fe</div>
+        <div class="grid-item">Co</div>
+        <div class="grid-item">Ni</div>
+        <div class="grid-item">Cu</div>
+        <div class="grid-item">Zn</div>
+        <div class="grid-item">Ga</div>
+        <div class="grid-item">Ge</div>
+        <div class="grid-item">As</div>
+        <div class="grid-item">Se</div>
+        <div class="grid-item">Br</div>
+        <div class="grid-item">Kr</div>
+  
+        <!-- This is the 5th row of 19 cells -->
+        <div class="grid-item">Rb</div>
+        <div class="grid-item">Sr</div>
+        <div class="grid-item">Y</div>
+        <!-- The 4th column of every row needs to be blank -->
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item">Zr</div>
+        <div class="grid-item">Nb</div>
+        <div class="grid-item">Mo</div>
+        <div class="grid-item">Te</div>
+        <div class="grid-item">Ru</div>
+        <div class="grid-item">Rh</div>
+        <div class="grid-item">Pd</div>
+        <div class="grid-item">Ag</div>
+        <div class="grid-item">Cd</div>
+        <div class="grid-item">In</div>
+        <div class="grid-item">Sn</div>
+        <div class="grid-item">Sb</div>
+        <div class="grid-item">Te</div>
+        <div class="grid-item">I</div>
+        <div class="grid-item">Xe</div>
+
+        <!-- This is the 6th row of 19 cells -->
+        <div class="grid-item">Cs</div>
+        <div class="grid-item">Ba</div>
+        <div class="grid-item">La</div>
+        <!-- The 4th column of every row needs to be blank -->
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item">Hf</div>
+        <div class="grid-item">Ta</div>
+        <div class="grid-item">W</div>
+        <div class="grid-item">Re</div>
+        <div class="grid-item">Os</div>
+        <div class="grid-item">Ir</div>
+        <div class="grid-item">Pt</div>
+        <div class="grid-item">Au</div>
+        <div class="grid-item">Hg</div>
+        <div class="grid-item">Tl</div>
+        <div class="grid-item">Pb</div>
+        <div class="grid-item">Bi</div>
+        <div class="grid-item">Po</div>
+        <div class="grid-item">At</div>
+        <div class="grid-item">Rn</div>
+        
+        <!-- This is the 7th row of 19 cells -->
+        <div class="grid-item">Fr</div>
+        <div class="grid-item">Ra</div>
+        <div class="grid-item">Ac</div>
+        <!-- The 4th column of every row needs to be blank -->
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item">Rf</div>
+        <div class="grid-item">Db</div>
+        <div class="grid-item">Sg</div>
+        <div class="grid-item">Bh</div>
+        <div class="grid-item">Hs</div>
+        <div class="grid-item">Mt</div>
+        <div class="grid-item">Ds</div>
+        <div class="grid-item">Rg</div>
+        <div class="grid-item">Cn</div>
+        <div class="grid-item">Nh</div>
+        <div class="grid-item">Fl</div>
+        <div class="grid-item">Mc</div>
+        <div class="grid-item">Lv</div>
+        <div class="grid-item">Ts</div>
+        <div class="grid-item">Og</div>
+  
+        <!-- This is the 8th row of 19 cells all blank -->
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+
+        <!-- This is the 9th row of 19 cells -->
+        <!-- Bottom left corner of Periodic Table is empty i.e. 3 first cells in the last two rows -->
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <!-- The 4th column of every row needs to be blank -->
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item">Ce</div>
+        <div class="grid-item">Pr</div>
+        <div class="grid-item">Nd</div>
+        <div class="grid-item">Pm</div>
+        <div class="grid-item">Sm</div>
+        <div class="grid-item">Eu</div>
+        <div class="grid-item">Gd</div>
+        <div class="grid-item">Tb</div>
+        <div class="grid-item">Dy</div>
+        <div class="grid-item">Ho</div>
+        <div class="grid-item">Er</div>
+        <div class="grid-item">Tm</div>
+        <div class="grid-item">Vb</div>
+        <div class="grid-item">Lu</div>
+        <div class="grid-item-hidden"></div>
+
+        <!-- This is the 10th row of 19 cells -->
+        <!-- Bottom left corner of Periodic Table is empty i.e. 3 first cells in the last two rows -->
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item-hidden"></div>
+        <!-- The 4th column of every row needs to be blank -->
+        <div class="grid-item-hidden"></div>
+        <div class="grid-item">Th</div>
+        <div class="grid-item">Pa</div>
+        <div class="grid-item">U</div>
+        <div class="grid-item">Np</div>
+        <div class="grid-item">Pa</div>
+        <div class="grid-item">Am</div>
+        <div class="grid-item">Cm</div>
+        <div class="grid-item">Bk</div>
+        <div class="grid-item">Cf</div>
+        <div class="grid-item">Es</div>
+        <div class="grid-item">Fm</div>
+        <div class="grid-item">Md</div>
+        <div class="grid-item">No</div>
+        <div class="grid-item">Lr</div>
+        <div class="grid-item-hidden"></div>
+    </div>
+  </body>
+</html>

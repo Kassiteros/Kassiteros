@@ -1,0 +1,63 @@
+/* This is the Cascading Style Sheet for tribute.html which should be in the same folder */ 
+
+.MainBoxContainer {     /* a CLASS selector */
+
+    background-color: rgb(185, 185, 185);
+    font-style: italic;
+    width: 100%;
+
+    /* Lets define some padding to bring the content away from the edges of the container */
+    padding: 10px;
+}
+
+#ImageContainer {       /* an ID selector just so we can see how this works ! Remember this applies only to one
+                           instance of a specifig element only. It applies once in the HTML where it is used */
+
+    /* This is the main "container" so set the background colour here */
+    background-color: whitesmoke;
+    
+    /* Have his element fill the whole window */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Put some padding in so image in this container is not "glued" to any edges */
+    padding: 10px;
+    
+}
+
+.MyImageStyling {       /* a CLASS selector */
+
+    /* Let's try to make the image responsive */
+    max-width: 300px;
+
+    /* Let's centre the image horizontally on the page */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px; /* No border needed on image */
+}
+
+
+#TimelineContainer {       /* an ID selector specifically for the timeline */
+    padding: 50px;   
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+}
+
+
+nav {   /* Only using one NAV element so we'll define an element selector */
+    text-align: center;
+    padding-top: 28px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    color: blueviolet; /* by way of tribute to the "purple one" ;-) */
+}
+
+
+h1, h2, h3, h4, h5, h6{ /* As per the brief, ensure all headings use the Tinmes Roman font and are italicised */
+    font-family:'Times New Roman';
+    font-style: italic;
+}
