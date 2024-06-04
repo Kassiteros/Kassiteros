@@ -80,7 +80,7 @@ END COMMENT OUT -->
 
 <h5 align="justify">Why am I telling you this ? Because it motivated me. It took a lot of effort and perseverance to organise for Kass to be safely brought home. I thought that if I can make that happen with planning, networking and sheer determination, then I can do the same for myself. I have been a primary school teacher and worked through the IT industry starting as a programmer and received a varied, "shop floor" view of the IT industry. I worked with the IBM i-Series and learnt a lot about a "machine platform" and how to support it and use it to support applications and I learnt how these applications depend, adapt and capitalise on the strengths of that platform and depend on the underpinning databases. At the moment I am in an IT management role but feeling the "call of the wild", a desire to get back to my technical roots. When I started out, programming was a 9 to 5, lowly job on the corporate ladder. That has changed dramatically. I want a career change that allows me to get back into to the programming I enjoyed so much. I want to enjoy the benefits that now accompany many programming roles of contract and flexible working. Bringing Kassi back made me confident that with some effort I can achieve the changes I want and a more challenging and fulfilling career more closely attuned to my lifestyle. I was accepted onto a Hyperiondev bootcamp in full stack web development and now I am building the toolkit to make my dreams a reality !</h6>
 
-[Bootcamp Portfolio Results]https://www.hyperiondev.com/portfolio/AH24020013978/)
+[Bootcamp Portfolio Results](https://www.hyperiondev.com/portfolio/AH24020013978/)
 
 [My LinkedIn](https://www.linkedin.com/in/alex-haidar-772572/)
 
