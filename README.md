@@ -84,4 +84,4 @@ END COMMENT OUT -->
 
 [My LinkedIn](https://www.linkedin.com/in/alex-haidar-772572/)
 
-[Email me](mailto:alex.haidat@icloud.com)
+[Email me](mailto:coburn270@gmail.com)
